@@ -12,6 +12,10 @@ const PORT = 3000;
 app.use(express.json());
 
 
+// route mount
+app.use("/api/users", userRouter); 
+
+
 // Handle unknown routes
 app.use((req, res) => {
   res.status(404).json({
