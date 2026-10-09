@@ -1,0 +1,362 @@
+[
+  {
+    "_id": "USR001",
+    "firstName": "Ram",
+    "lastName": "Kumar",
+    "username": "ram.kumar",
+    "email": "ram@example.com",
+    "phone": "+919000000001",
+    "age": 30,
+    "role": "customer",
+    "accountStatus": "active",
+    "emailVerified": true,
+    "profile": {
+      "bio": "Web developer",
+      "avatarUrl": "https://example.com/avatars/ram.jpg",
+      "gender": "male"
+    },
+    "address": {
+      "city": "Kottayam",
+      "state": "Kerala",
+      "country": "India",
+      "postalCode": "686001"
+    },
+    "preferences": {
+      "language": "ml-IN",
+      "theme": "dark",
+      "notifications": true
+    },
+    "subscription": {
+      "plan": "pro",
+      "status": "active"
+    },
+    "tags": ["technology", "learning"],
+    "createdAt": "2026-01-10T09:30:00.000Z",
+    "updatedAt": "2026-09-15T11:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "_id": "USR002",
+    "firstName": "Arun",
+    "lastName": "Nair",
+    "username": "arun.nair",
+    "email": "arun@example.com",
+    "phone": "+919000000002",
+    "age": 25,
+    "role": "customer",
+    "accountStatus": "active",
+    "emailVerified": true,
+    "profile": {
+      "bio": "Software engineer",
+      "avatarUrl": null,
+      "gender": "male"
+    },
+    "address": {
+      "city": "Kochi",
+      "state": "Kerala",
+      "country": "India",
+      "postalCode": "682001"
+    },
+    "preferences": {
+      "language": "en-IN",
+      "theme": "light",
+      "notifications": true
+    },
+    "subscription": {
+      "plan": "free",
+      "status": "active"
+    },
+    "tags": ["coding", "music"],
+    "createdAt": "2026-02-12T10:00:00.000Z",
+    "updatedAt": "2026-08-20T08:30:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "_id": "USR003",
+    "firstName": "Anjali",
+    "lastName": "Menon",
+    "username": "anjali.menon",
+    "email": "anjali@example.com",
+    "phone": "+919000000003",
+    "age": 28,
+    "role": "seller",
+    "accountStatus": "active",
+    "emailVerified": true,
+    "profile": {
+      "bio": "Online store owner",
+      "avatarUrl": "https://example.com/avatars/anjali.jpg",
+      "gender": "female"
+    },
+    "address": {
+      "city": "Thrissur",
+      "state": "Kerala",
+      "country": "India",
+      "postalCode": "680001"
+    },
+    "preferences": {
+      "language": "ml-IN",
+      "theme": "system",
+      "notifications": false
+    },
+    "subscription": {
+      "plan": "pro",
+      "status": "active"
+    },
+    "tags": ["business", "fashion"],
+    "createdAt": "2026-03-01T07:15:00.000Z",
+    "updatedAt": "2026-09-01T12:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "_id": "USR004",
+    "firstName": "Rahul",
+    "lastName": "Pillai",
+    "username": "rahul.pillai",
+    "email": "rahul@example.com",
+    "phone": "+919000000004",
+    "age": 32,
+    "role": "customer",
+    "accountStatus": "pending_verification",
+    "emailVerified": false,
+    "profile": {
+      "bio": "Digital marketer",
+      "avatarUrl": null,
+      "gender": "male"
+    },
+    "address": {
+      "city": "Alappuzha",
+      "state": "Kerala",
+      "country": "India",
+      "postalCode": "688001"
+    },
+    "preferences": {
+      "language": "en-IN",
+      "theme": "dark",
+      "notifications": true
+    },
+    "subscription": {
+      "plan": "free",
+      "status": "trialing"
+    },
+    "tags": ["marketing", "business"],
+    "createdAt": "2026-04-05T14:00:00.000Z",
+    "updatedAt": "2026-04-06T09:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "_id": "USR005",
+    "firstName": "Priya",
+    "lastName": "Thomas",
+    "username": "priya.thomas",
+    "email": "priya@example.com",
+    "phone": "+919000000005",
+    "age": 26,
+    "role": "customer",
+    "accountStatus": "active",
+    "emailVerified": true,
+    "profile": {
+      "bio": "Designer",
+      "avatarUrl": "https://example.com/avatars/priya.jpg",
+      "gender": "female"
+    },
+    "address": {
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "country": "India",
+      "postalCode": "695001"
+    },
+    "preferences": {
+      "language": "ml-IN",
+      "theme": "light",
+      "notifications": false
+    },
+    "subscription": {
+      "plan": "basic",
+      "status": "active"
+    },
+    "tags": ["design", "art"],
+    "createdAt": "2026-01-22T08:00:00.000Z",
+    "updatedAt": "2026-07-10T10:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "_id": "USR006",
+    "firstName": "Akhil",
+    "lastName": "Varma",
+    "username": "akhil.varma",
+    "email": "akhil@example.com",
+    "phone": "+919000000006",
+    "age": 35,
+    "role": "admin",
+    "accountStatus": "active",
+    "emailVerified": true,
+    "profile": {
+      "bio": "System administrator",
+      "avatarUrl": null,
+      "gender": "male"
+    },
+    "address": {
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India",
+      "postalCode": "560001"
+    },
+    "preferences": {
+      "language": "en-IN",
+      "theme": "dark",
+      "notifications": true
+    },
+    "subscription": {
+      "plan": "enterprise",
+      "status": "active"
+    },
+    "tags": ["admin", "security"],
+    "createdAt": "2026-02-01T11:30:00.000Z",
+    "updatedAt": "2026-09-25T16:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "_id": "USR007",
+    "firstName": "Meera",
+    "lastName": "Joseph",
+    "username": "meera.joseph",
+    "email": "meera@example.com",
+    "phone": "+919000000007",
+    "age": 29,
+    "role": "customer",
+    "accountStatus": "suspended",
+    "emailVerified": true,
+    "profile": {
+      "bio": "Teacher",
+      "avatarUrl": null,
+      "gender": "female"
+    },
+    "address": {
+      "city": "Kozhikode",
+      "state": "Kerala",
+      "country": "India",
+      "postalCode": "673001"
+    },
+    "preferences": {
+      "language": "ml-IN",
+      "theme": "system",
+      "notifications": true
+    },
+    "subscription": {
+      "plan": "free",
+      "status": "expired"
+    },
+    "tags": ["education", "books"],
+    "createdAt": "2026-03-14T06:30:00.000Z",
+    "updatedAt": "2026-08-15T13:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "_id": "USR008",
+    "firstName": "Vishnu",
+    "lastName": "Das",
+    "username": "vishnu.das",
+    "email": "vishnu@example.com",
+    "phone": "+919000000008",
+    "age": 24,
+    "role": "seller",
+    "accountStatus": "active",
+    "emailVerified": true,
+    "profile": {
+      "bio": "Electronics seller",
+      "avatarUrl": "https://example.com/avatars/vishnu.jpg",
+      "gender": "male"
+    },
+    "address": {
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "postalCode": "600001"
+    },
+    "preferences": {
+      "language": "en-IN",
+      "theme": "light",
+      "notifications": true
+    },
+    "subscription": {
+      "plan": "pro",
+      "status": "active"
+    },
+    "tags": ["electronics", "gadgets"],
+    "createdAt": "2026-04-18T09:45:00.000Z",
+    "updatedAt": "2026-09-12T14:00:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "_id": "USR009",
+    "firstName": "Kiran",
+    "lastName": "Sharma",
+    "username": "kiran.sharma",
+    "email": "kiran@example.com",
+    "phone": "+919000000009",
+    "age": 41,
+    "role": "customer",
+    "accountStatus": "active",
+    "emailVerified": false,
+    "profile": {
+      "bio": "Photographer",
+      "avatarUrl": null,
+      "gender": "male"
+    },
+    "address": {
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "country": "India",
+      "postalCode": "400001"
+    },
+    "preferences": {
+      "language": "hi-IN",
+      "theme": "dark",
+      "notifications": false
+    },
+    "subscription": {
+      "plan": "basic",
+      "status": "active"
+    },
+    "tags": ["photography", "travel"],
+    "createdAt": "2026-05-02T12:00:00.000Z",
+    "updatedAt": "2026-09-05T15:30:00.000Z",
+    "deletedAt": null
+  },
+  {
+    "_id": "USR010",
+    "firstName": "Neha",
+    "lastName": "Reddy",
+    "username": "neha.reddy",
+    "email": "neha@example.com",
+    "phone": "+919000000010",
+    "age": 27,
+    "role": "customer",
+    "accountStatus": "active",
+    "emailVerified": true,
+    "profile": {
+      "bio": "Content creator",
+      "avatarUrl": "https://example.com/avatars/neha.jpg",
+      "gender": "female"
+    },
+    "address": {
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "country": "India",
+      "postalCode": "500001"
+    },
+    "preferences": {
+      "language": "en-IN",
+      "theme": "system",
+      "notifications": true
+    },
+    "subscription": {
+      "plan": "free",
+      "status": "active"
+    },
+    "tags": ["content", "social-media"],
+    "createdAt": "2026-01-15T10:30:00.000Z",
+    "updatedAt": "2026-07-20T08:15:00.000Z",
+    "deletedAt": null
+  }
+]
