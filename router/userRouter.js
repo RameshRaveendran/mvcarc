@@ -3,7 +3,8 @@ const router = express.Router();
 
 // get the module
 const { getAllUsers,
-        getUserById
+        getUserById,
+        createUser
  } = require("../controller/user");
 
 
@@ -13,6 +14,9 @@ router.get("/",getAllUsers);
 
 // read a single user with id
 router.get("/:id",getUserById);
+
+// add user 
+router.post("/",createUser);
 
 
 module.exports = router;

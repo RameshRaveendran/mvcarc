@@ -55,10 +55,47 @@ const getUserById = async (req, res) => {
     }
 };
 
+// POST /api/users
+const createUser = async (req, res) => {
+  try {
+    const { name, email, age } = req.body;
+
+    if (
+      typeof name !== "string" ||
+      !name.trim() ||
+      typeof email !== "string" ||
+      !email.trim() ||
+      !Number.isFinite(age) ||
+      age < 0
+    ) {
+      return res.status(400).json({
+        success: false,
+        message: "Valid name, email and age are required"
+      });
+    }
+
+    const newUser = await User.createUser({
+      name: name.trim(),
+      email: email.trim(),
+      age
+    });
+
+    res.status(201).json({
+      success: true,
+      data: newUser
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      message: "Error creating user"
+    });
+  }
+};
 
 
 
 module.exports = { 
     getAllUsers,
-    getUserById 
+    getUserById,
+    createUser
 };

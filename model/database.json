@@ -178,42 +178,6 @@
     "createdAt": "2026-01-22T08:00:00.000Z",
     "updatedAt": "2026-07-10T10:00:00.000Z",
     "deletedAt": null
-  },
-  {
-    "_id": "6",
-    "firstName": "Akhil",
-    "lastName": "Varma",
-    "username": "akhil.varma",
-    "email": "akhil@example.com",
-    "phone": "+919000000006",
-    "age": 35,
-    "role": "admin",
-    "accountStatus": "active",
-    "emailVerified": true,
-    "profile": {
-      "bio": "System administrator",
-      "avatarUrl": null,
-      "gender": "male"
-    },
-    "address": {
-      "city": "Bengaluru",
-      "state": "Karnataka",
-      "country": "India",
-      "postalCode": "560001"
-    },
-    "preferences": {
-      "language": "en-IN",
-      "theme": "dark",
-      "notifications": true
-    },
-    "subscription": {
-      "plan": "enterprise",
-      "status": "active"
-    },
-    "tags": ["admin", "security"],
-    "createdAt": "2026-02-01T11:30:00.000Z",
-    "updatedAt": "2026-09-25T16:00:00.000Z",
-    "deletedAt": null
   }
   
 ]

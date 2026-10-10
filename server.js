@@ -5,7 +5,7 @@ const userRouter = require("./router/userRouter");
 // express app init
 const app = express();
 // port
-const PORT = 3000;
+// const PORT = 3000;
 
 
 //app middleware
